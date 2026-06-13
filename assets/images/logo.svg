@@ -1,0 +1,40 @@
+<svg viewBox="0 0 900 300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Gradient -->
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#5A2FD6"></stop>
+      <stop offset="100%" stop-color="#7B3FE4"></stop>
+    </linearGradient>
+  </defs>
+
+  <!-- Shadow -->
+  <ellipse cx="120" cy="270" rx="60" ry="10" fill="#7B3FE4" opacity="0.25"></ellipse>
+
+  <!-- Pin Shape -->
+  <path d="
+    M120 30
+    C70 30 40 70 40 110
+    C40 170 120 260 120 260
+    C120 260 200 170 200 110
+    C200 70 170 30 120 30
+    Z
+  " fill="url(#g)"></path>
+
+  <!-- Inner Circle -->
+  <circle cx="120" cy="110" r="38" fill="none" stroke="white" stroke-width="12"></circle>
+
+  <!-- Handle -->
+  <line x1="145" y1="135" x2="185" y2="175" stroke="white" stroke-width="12" stroke-linecap="round"></line>
+
+  <!-- Signal Lines -->
+  <line x1="170" y1="60" x2="185" y2="40" stroke="url(#g)" stroke-width="10" stroke-linecap="round"></line>
+  <line x1="190" y1="70" x2="215" y2="55" stroke="url(#g)" stroke-width="10" stroke-linecap="round"></line>
+  <line x1="155" y1="50" x2="165" y2="30" stroke="url(#g)" stroke-width="10" stroke-linecap="round"></line>
+
+  <!-- TEXT -->
+  <text x="260" y="155" font-family="Poppins, Arial, sans-serif" font-size="110" font-weight="600" fill="url(#g)">
+    FindIt
+  </text>
+
+</svg>
